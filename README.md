@@ -1,5 +1,7 @@
 # Theremin synth
 
+(RC presentation)
+
 Opens a window, and plays a sawtooth wave tone whose pitch and amplitude depend on the current mouse position. Draws the waveform to the screen.
 
 ### Install SDL
@@ -25,5 +27,5 @@ $ gcc main.c $(sdl2-config --cflags --libs) -o run
 ./run
 ```
 
-Press **l** to play, **k** to pause.
+Press **L** to play, **L** to pause.
 
