@@ -1,6 +1,8 @@
 # Theremin synth
 
-## Install SDL
+Opens a window, and plays a sawtooth wave tone whose pitch and amplitude depend on the current mouse position. Draws the waveform to the screen.
+
+### Install SDL
 You can find more information online, but if you're on MacOS, you can probably use homebrew:
 ```console
 $ brew install sdl2
@@ -23,5 +25,5 @@ $ gcc main.c $(sdl2-config --cflags --libs) -o run
 ./run
 ```
 
-Press *l* to play, *k* to pause.
+Press **l** to play, **k** to pause.
 
