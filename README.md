@@ -27,5 +27,5 @@ $ gcc main.c $(sdl2-config --cflags --libs) -o run
 ./run
 ```
 
-Press **L** to play, **L** to pause.
+Press **L** to play, **K** to pause.
 
